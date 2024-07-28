@@ -7,12 +7,12 @@ export default function Header({ searchTerm, setSearchTerm }) {
     <div className="cont-sup">
       <Navbar />
       <div className="msj">
-        <p>Free shipping nationwide for purchases over $150,000.00 COP</p>
+        <p>Free shipping nationwide for purchases over $150,000.00 COP----------------Free shipping nationwide for purchases over $150,000.00 COP------------Free shipping nationwide for purchases over $150,000.00 COP</p>
       </div>
       <input
         className="srch"
         type="text"
-        placeholder="Search"
+        placeholder="🔎"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />

@@ -30,7 +30,7 @@
   .cart-item img {
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 50%;
   }
   
   .cart-item h4 {
@@ -45,7 +45,7 @@
   }
   
   .cart-item button {
-    background-color: #3d59e6;
+    background-color: #1c1d4f;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -61,7 +61,7 @@
   }
   
   .addBtn {
-    background-color: #3d59e6;
+    background-color: #1c1d4f;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -83,7 +83,7 @@
     transform: translate(-50%, -50%);
     background: #2b33ca;
     padding: 20px;
-    box-shadow: 0 5px 20px #000;
+    box-shadow: 0 20px 40px #000;
     border-radius: 1rem;
   }
   
@@ -103,7 +103,7 @@
   }
   
   .add-item-form button {
-    background-color: #3d59e6;
+    background-color: #1c1d4f;
     color: white;
     border: none;
     padding: 10px;
@@ -116,4 +116,3 @@
     background-color: #292ca4;
     color: #fff;
   }
-  

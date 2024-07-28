@@ -40,7 +40,7 @@ export default function Cart({ searchTerm }) {
     <div className="cartCont">
       <div className="cart">
         {filteredItems.length === 0 ? (
-          <p>🔎</p>
+          <p></p>
         ) : (
           filteredItems.map(item => (
             <CartItem key={item.id} item={item} onRemove={removeItem} />
@@ -67,7 +67,7 @@ export default function Cart({ searchTerm }) {
             />
             <input
               type="file"
-              accept="image/*"
+              accept="image/png"
               onChange={handleImageChange}
               ref={fileInputRef}
               required

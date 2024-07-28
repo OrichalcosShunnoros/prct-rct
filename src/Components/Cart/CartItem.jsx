@@ -14,9 +14,9 @@ function CartItem({ item, onRemove }) {
       reader.readAsDataURL(file);
     }
   };
-  const handleButtonClick = () => {
-    fileInputRef.current.click();
-  };
+  // const handleButtonClick = () => {
+  //   fileInputRef.current.click();
+  // };
 
   return (
     <div className="cart-item">
